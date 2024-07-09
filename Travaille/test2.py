@@ -1,0 +1,6 @@
+f=open("C:/Users/saido/PycharmProjects/pythonProject/Travaille/main.py","r")
+a=f.read()
+f.close()
+f=open("C:/Users/saido/OneDrive/Bureau/test3.txt","x")
+f.write(a)
+f.close()

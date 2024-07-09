@@ -1,0 +1,12 @@
+from src.vent import *
+p=client("saidouchrif","nnsdnsnd",19,1,"JJODZJ")
+p1=client("said","nnsdnsnd",19,1,"JJODZJ")
+p3=client("hamza","nnsdnsnd",19,1,"JJODZJ")
+f=open("C:/Users/saido/PycharmProjects/pythonProject/Travaille/main.py","r")
+a=f.read()
+f.close()
+f=open("C:/Users/saido/OneDrive/Bureau/client.csv","a")
+f.write(f"{p.nom_complet,p.CIN,p.age,p.id_client,p.Budget}")
+f.write(f"{p1.nom_complet,p1.CIN,p1.age,p1.id_client,p1.Budget}")
+f.write(f"{p3.nom_complet,p3.CIN,p3.age,p3.id_client,p3.Budget}")
+f.close()
